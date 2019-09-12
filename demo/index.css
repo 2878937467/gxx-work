@@ -2,3 +2,9 @@ body{
     height:1000px;
     background-color:red;
 }
+#ball{
+    width:200px;
+    heigth:200px;
+    border-radius:100px;
+    background-color:blue;
+  }
