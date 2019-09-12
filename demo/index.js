@@ -1,1 +1,3 @@
-document.body.onclick=function(){alert(1)}
+document.getElementBylId("ball").onclick = function(){
+  ball.style.backgroundColor="yellow";
+}
