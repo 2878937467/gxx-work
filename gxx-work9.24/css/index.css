@@ -1,0 +1,170 @@
+/*头部*/
+.head{
+	height:265px;
+	background-color:#3f51b5;
+}
+.first{
+	width:200px;
+	height:220px;
+	margin:0 auto;
+}
+.first img {
+    height: 120px;
+    width: 120px;
+    margin-left: 30px;
+    margin-top:15px;
+}
+.first p {
+    color:white;
+    font-size: 15px;
+    text-align: center;
+}
+.nav{
+	height:45px;
+	background-color:#3a4ba7;
+
+}
+.ul{
+	width:900px;
+	margin:0 auto;
+}
+.ul li{
+	margin-top:10px;
+	margin-left:100px;
+	float:left;
+	list-style: none;
+}
+.ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size:13px;
+}
+/*主体*/
+.second{
+	width:100%;
+	height:810px;
+	margin:14px 0;
+}
+.content{
+	width:900px;
+	height:794px;
+	padding:8px;
+	margin:0 auto;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+.all{
+	width:884px;
+	height:746px;
+	margin:8px;
+	padding-bottom:2em;
+}
+.all .one{
+	width:884px;
+	height:30px;
+	padding:16px;
+}
+.all .one h2{
+	font-size: 24px;
+    font-weight: 350;
+    margin: 0;
+}
+.three{
+	width:604px;
+	height:420px;
+	padding:8px;
+	margin:0 auto;
+}
+.middle{
+	width:588px;
+	height:404px;
+	margin:8px;
+}
+.add{
+    width: 529px;
+    height: 318px;
+    padding: 16px;
+    font-size: 1rem;
+}
+.add p{
+    width: 529px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 16px;
+    color: #8E8E8E;
+}
+div.a{
+	width:529px;
+	heigth:28px;
+	padding:20px 0;
+}
+div.b{
+	width:529px;
+	height:101px;
+	padding:20px 0;
+}
+div.a input{
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    padding: 4px 0;
+    text-align: left;
+    background: 0 0;
+    font-size: 16px;
+    color: #E0E0E0;
+}
+div.b span{
+	font-size:16px;
+	color:#E0E0E0;
+}
+div.b input {
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    padding: 4px 0;
+    text-align: left;
+    background: 0 0;
+    margin-top: 40px;
+}
+div.add p.anniu{
+	width: 529px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 16px;
+    color: #8E8E8E;
+}
+div.add p.anniu button{
+	border: none;
+    border-radius: 2px;
+    width: 83px;
+    height: 36px;
+    font-size: 14px;
+    background-color: #FF4081;
+    color: white;
+}
+/*尾部*/
+.third{
+	width:100%;
+	height:36px;
+	text-align: center;
+	background-color:#424242;
+	margin-top:30px;
+	padding:32px 16px;
+}
+.text{
+	
+	height:36px;
+	color:white;
+	font-size:14px;
+	margin:0 auto;
+}
+.text b{
+	font-weight:400;
+	border-bottom:1px dashed #aaa;
+}
+.text a{
+	margin-left:16px;
+	color:#8E8E8E;
+	text-decoration: none;
+}
