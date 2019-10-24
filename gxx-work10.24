@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="text" id="int1" />
+		<button id="btn1">签到</button>
+		<button id="btn2" >未签到</button>
+		<div id="mydiv"></div>
+		<script type="text/javascript">
+			var int1=document.getElementById('int1');
+			var btn1=document.getElementById('btn1');
+			var btn2=document.getElementById('btn2');
+			var mydiv=document.getElementById('mydiv');
+			var arr =' "玛卡巴卡","依古比古","花园宝宝","灰太狼", "喜羊羊","美羊羊","慢羊羊"';
+			var jarr=[]
+			btn.onclick=function(){
+				jarr.push(int1.value);
+				int1.value="";
+				console.log(jarr);
+			}
+			btn2.onclick=function(){
+				var reg = new RegExp(jarr.join('|'),"ig");
+				var val = arr.replace(reg,"");
+				mydiv.innerHTML = '未签到人有:' + val;
+			}
+		</script>
+	</body>
+</html>
